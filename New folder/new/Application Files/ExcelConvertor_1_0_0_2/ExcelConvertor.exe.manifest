@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ExcelConvertor.exe" version="1.0.0.2" publicKeyToken="93b85021f2fa3074" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ExcelConvertor" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ExcelConvertor.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Aspose.Cells.dll" size="14746288">
+      <assemblyIdentity name="Aspose.Cells" version="24.7.0.0" publicKeyToken="716FCC553A201E56" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>rgddObuVgftdOi8TdazO5eYA3ozVhUPVjCZKmM7zfOc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ExcelConvertor.exe" size="17276400">
+      <assemblyIdentity name="ExcelConvertor" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ixnWN5nD3G4zb1RzRfTlMd9qxzNK1FXqmepz0nW4StM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EPPlus.dll" size="3243520">
+      <assemblyIdentity name="EPPlus" version="6.2.19.0" publicKeyToken="EA159FDAA78159A1" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>gh40V/xQTomvGwyaitNAfCBdV9u1RNSDT4YdjfE2Wi0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EPPlus.Interfaces.dll" size="6656">
+      <assemblyIdentity name="EPPlus.Interfaces" version="6.1.1.0" publicKeyToken="A694D7F3B0907A61" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>/5a/JHXkTxBkf4ZBu6wSqvaG/2BgCAZRkjule7gMV8A=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EPPlus.System.Drawing.dll" size="7168">
+      <assemblyIdentity name="EPPlus.System.Drawing" version="6.1.1.0" publicKeyToken="2308D35469C9BAC0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>h1E3xbiftnilu3jf6QvswjZnUL60S7mKaZDbSO95yrw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.IO.RecyclableMemoryStream.dll" size="38288">
+      <assemblyIdentity name="Microsoft.IO.RecyclableMemoryStream" version="1.4.1.0" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>N3q2nJ6ebs6vu5ZVVQSaVMCKhZ4wKUIszz8zk0l1qUs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.VisualStudio.CodeCoverage.Shim.dll" size="16320">
+      <assemblyIdentity name="Microsoft.VisualStudio.CodeCoverage.Shim" version="15.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>TbJ9XzoUSkzNHTA105/4/Z/XnheBLeGd0RB5iHMQrgI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ExcelConvertor.exe.config" size="825">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Y+GM4WOKID1og/IlYrxtgIEh8NsEedNRV9sNNQg4L4c=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=VEYSELOGLU\Ravi.Jafarli" issuerKeyHash="ad5feb4591539f4783fc379714f1cd70b9a07d20" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>FwwYj8aGnN/S8ZnEnQMx6SUrqS/hBcyQdBhBpftVD+k=</DigestValue></Reference></SignedInfo><SignatureValue>rrE8nZ35V3N3VNvRxbsG/2cvHgt+6WgTh2VUSH1ypLbQ/R4E9xeWLVp+57/DKvpaFt/BCBsRTZchCcrFOJg6KShiuOjA5gSGGdl2PgWLPVruBsbXVGc0fSRRIEDfUEP5Oi3PaMctnQ8wSZZAEVWokhyJL1Gs5pD54bRzndGEJjc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>sIPPPZcK31Wpb8AcMstXhE16UWi45jSZ6F5avpJKzi/yoZO09tc47UYxHB19j/4gSjtExwTjuXn0cr5ldrWpoz04ejMtfGvdxjUcKebUo5pulFgFdv/CzONdIkvemzrj2QJrcK/bgBpGeb4IsDTa3yalcrz2s+DzAGa2buMNvC0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="e90f55fba541187490cc05e12fa92b25e931039dc499f1d2df9c86c68f180c17" Description="" Url=""><as:assemblyIdentity name="ExcelConvertor.exe" version="1.0.0.2" publicKeyToken="93b85021f2fa3074" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=VEYSELOGLU\Ravi.Jafarli</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ra+dzXsyPevWMmdHbREa0R6BsYb6d/qgY3/EPy5/+pQ=</DigestValue></Reference></SignedInfo><SignatureValue>Uoec5zlMwSzmylCHwDxtQrNmmpYS7c83rU4tuNn3YjMG/bby8AviBevecU+6vIWkubZsDI6voQo8GqcROcqhLW55XnRMV3Ufc+A1FedO0kTozS5uMpPMH5ker6l0cs3p/jIoudBb4tzJ7KuiufcLrfOQE6P93vA8M9Rbj7l+4Ps=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>sIPPPZcK31Wpb8AcMstXhE16UWi45jSZ6F5avpJKzi/yoZO09tc47UYxHB19j/4gSjtExwTjuXn0cr5ldrWpoz04ejMtfGvdxjUcKebUo5pulFgFdv/CzONdIkvemzrj2QJrcK/bgBpGeb4IsDTa3yalcrz2s+DzAGa2buMNvC0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB9TCCAV6gAwIBAgIQWtoUFILzG41BJM/f88eWIzANBgkqhkiG9w0BAQsFADA5MTcwNQYDVQQDHi4AVgBFAFkAUwBFAEwATwBHAEwAVQBcAFIAYQB2AGkALgBKAGEAZgBhAHIAbABpMB4XDTI0MDgwNjA2NTIyN1oXDTI1MDgwNjEyNTIyN1owOTE3MDUGA1UEAx4uAFYARQBZAFMARQBMAE8ARwBMAFUAXABSAGEAdgBpAC4ASgBhAGYAYQByAGwAaTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAsIPPPZcK31Wpb8AcMstXhE16UWi45jSZ6F5avpJKzi/yoZO09tc47UYxHB19j/4gSjtExwTjuXn0cr5ldrWpoz04ejMtfGvdxjUcKebUo5pulFgFdv/CzONdIkvemzrj2QJrcK/bgBpGeb4IsDTa3yalcrz2s+DzAGa2buMNvC0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQBo2TwSJ9amhdy3QwCRuj76aS1a9QqIpdkqmZSjKEWdc7oahz3ZPskrUhBpvZ+KWGXOuPfKqd4Z1aHkk1/FoxPC7QEdjm5Oxt+QhdDLJ2AiKiC34G9sVtgILv5EnUJzAdOqq7JR6n99DjbzPoTK5r+8bfM1Wr7XTovNW61YzpeL/w==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
